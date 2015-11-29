@@ -1,43 +1,93 @@
-<!doctype html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Tinypixels by ZeroLevels</title>
+<head>
+  <style>
+    html, body {
+      margin:0;
+    }
+    body {
+      height:100%;
+      background:black;
+      text-align: center;
+      font-family: monospace;
+      background-size: cover;
+    }
+  	img.title {
+			display:none;
+		}
+    table {
+      margin:auto;
+      width:90%;
+      color:white;
+      border-top: solid #222 2px;
+      border-bottom: solid #222 2px;
+      border-collapse: collapse;
+    }
+    th {
+      background:#222;
+      font-size:1.5em;
+    }
+    td {
+			text-align:center;
+      background:#070707;
+    }
+		td:first-child {
+			color:#777;
+		}
+    tr:hover td {
+      background:#111;
+    }
+    div,th,td {
+      border-right: solid #222 2px;
+      border-left: solid #222 2px;
+    }
+    a {
+      color: #f70;
+      font-weight: bold;
+      text-decoration:none;
+    }
+    a:hover{
+      color: #ff0;
+    }
+		
+		@media screen and (min-width: 243px) {
+      img.small {
+          display: inline;
+      }
+    }
+		
+		@media screen and (min-width: 484px) {
+      img.medium {
+          display: inline;
+      }
+			
+			img.small {
+				display:none
+			}
+    }
+		
+		@media screen and (min-width: 725px) {
+			img.large {
+          display: inline;
+      }
+			
+			img.medium, img.small {
+				display:none
+			}
+    }
+  </style>
+</head>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Tinypixels</h1>
-        <p>Textures for the Tiny Pixels resource pack.</p>
-        <p class="view"><a href="https://github.com/ZeroLevels/TinyPixels">View the Project on GitHub <small>ZeroLevels/TinyPixels</small></a></p>
-        <ul>
-          <li><a href="https://github.com/ZeroLevels/TinyPixels/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/ZeroLevels/TinyPixels/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/ZeroLevels/TinyPixels">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a id="tinypixels" class="anchor" href="#tinypixels" aria-hidden="true"><span class="octicon octicon-link"></span></a>TinyPixels</h1>
-
-<p>Textures for the Tiny Pixels resource pack.</p>
-      </section>
-    </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/ZeroLevels">ZeroLevels</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+<body>
+    <img class="title small" src="http://i.imgur.com/kxDrgjt.gif"/>
+		<img class="title medium" src="http://i.imgur.com/97FoIS8.gif"/>
+		<img class="title large" src="http://i.imgur.com/Lrr7nU3.gif"/>
+    <table>
+      <thead>
+        <tr><th>Mod Name</th><th title="Coverage ranges: Small, Partial, Most, Full.  Values fully depend on the version of the mod covered.">Coverage</th><th>Download Link</th></tr>
+      </thead>
+      <tbody>
+      <tr><td><a href="http://minecraft.curseforge.com/projects/iron-chests">IronChests 2</a> (build 742)</td><td>Full</td><td>Download</td></tbody></tr>
+    </table>
+</body>
 </html>
